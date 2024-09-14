@@ -1,0 +1,41 @@
+{
+    "playbook_status": "ready",
+    "missing_info": [],
+    "collected_info": {
+        "fabric_name": "San jose",
+        "site_hierarchy": "Global/USA",
+        "dnac_verify": true,
+        "dnac_port": 443,
+        "dnac_version": "2.2.3.3",
+        "dnac_debug": true,
+        "site_name": "San Mateo"
+    },
+    "current_playbook": {
+        "name": "Create Fabric Site",
+        "hosts": "localhost",
+        "gather_facts": "no",
+        "tasks": [
+            {
+                "name": "Create Fabric Site on DNAC",
+                "dnac_site": {
+                    "host": "dnac_host",
+                    "username": "dnac_username",
+                    "password": "dnac_password",
+                    "site": {
+                        "type": "fabric",
+                        "name": "San Mateo",
+                        "hierarchy": "Global/USA"
+                    },
+                    "state": "present"
+                },
+                "vars": {
+                    "dnac_verify": true,
+                    "dnac_port": 443,
+                    "dnac_version": "2.2.3.3",
+                    "dnac_debug": true
+                }
+            }
+        ]
+    },
+    "alert": "Your playbook is ready for deployment with the updated site name."
+}
