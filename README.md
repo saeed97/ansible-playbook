@@ -14,11 +14,11 @@ This project is an interactive Ansible playbook generator for Cisco DNA Center (
 
 ## Project Structure
 │
-├── app.py # Main application file
-├── prompts.py # Contains prompt templates
-├── requirements.txt # Python dependencies
-├── playbook_status.json # Stores the current playbook status
-└── README.md # This file
+├──> app.py # Main application file
+├──> prompts.py # Contains prompt templates
+├──> requirements.txt # Python dependencies
+├──> playbook_status.json # Stores the current playbook status
+└──> README.md # This file
 
 
 ## Prerequisites
@@ -97,6 +97,4 @@ This will start the server, and you can access the chat interface by opening a w
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.
 
-## License
 
-[Specify your license here]
