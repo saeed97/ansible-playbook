@@ -13,12 +13,14 @@ This project is an interactive Ansible playbook generator for Cisco DNA Center (
 - Persistent storage of playbook status
 
 ## Project Structure
+
+project_root/
 │
-├──> app.py # Main application file
-├──> prompts.py # Contains prompt templates
-├──> requirements.txt # Python dependencies
-├──> playbook_status.json # Stores the current playbook status
-└──> README.md # This file
+├── app.py # Main application file
+├── prompts.py # Contains prompt templates
+├── requirements.txt # Python dependencies
+├── playbook_status.json # Stores the current playbook status
+└── README.md # This file
 
 
 ## Prerequisites
